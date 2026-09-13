@@ -1,0 +1,205 @@
+###############################################
+#        GITIGNORE GLOBAL — PLANTEVERTE       #
+#        Android • Kotlin • Gradle • OS       #
+###############################################
+
+###############
+# OS / SYSTEM #
+###############
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+#################
+# LOGS & CACHE  #
+#################
+*.log
+*.cache
+.cache/
+logs/
+log/
+*.pid
+
+#################
+# ARCHIVES      #
+#################
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+#################
+# SECRETS       #
+#################
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+secrets.json
+credentials.*
+config.local.*
+
+#################
+# ANDROID       #
+#################
+# Build
+app/build/
+build/
+*/build/
+
+# Gradle
+.gradle/
+local.properties
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Android Studio
+.idea/
+*.iml
+captures/
+output.json
+
+# NDK
+obj/
+*.so
+*.o
+
+#################
+# KOTLIN / JAVA #
+#################
+*.class
+*.jar
+*.war
+*.ear
+
+#################
+# ROOM DATABASE #
+#################
+*.db
+*.db-shm
+*.db-wal
+
+#################
+# LIFECYCLE / VIEWBINDING #
+#################
+# (Android Studio génère automatiquement)
+generated/
+
+#################
+# NODE / JS     #
+#################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.next/
+.nuxt/
+.parcel-cache/
+.vite/
+
+#################
+# PYTHON        #
+#################
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+ENV/
+env/
+venv/
+.venv/
+
+#################
+# WEB (HTML/CSS/JS)
+#################
+.sass-cache/
+bower_components/
+jspm_packages/
+*.map
+
+#################
+# RUBY          #
+#################
+.bundle/
+vendor/bundle/
+*.gem
+.sass-cache/
+
+#################
+# PERL          #
+#################
+blib/
+_build/
+Build
+Build.bat
+Makefile
+Makefile.old
+pm_to_blib
+
+#################
+# C / C++       #
+#################
+*.o
+*.obj
+*.dll
+*.exe
+*.out
+
+#################
+# GO            #
+#################
+bin/
+*.exe
+*.test
+
+#################
+# RUST          #
+#################
+target/
+Cargo.lock
+
+#################
+# DOCKER        #
+#################
+.docker/
+docker-compose.override.yml
+
+#################
+# MISC          #
+#################
+*.svg.tmp
+*.png.tmp
+
+###############################
+# PROJECT: PLANTEVERTE        #
+###############################
+
+# Room DB
+planteverte.db
+planteverte.db-shm
+planteverte.db-wal
+
+# App internal cache
+app_cache/
+tmp/
+cache/
+
+# Exported files
+exports/
+reports/
