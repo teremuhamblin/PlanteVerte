@@ -18,4 +18,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"/>
 
+    <!-- Nouveau bouton Scanner -->
+    <Button
+        android:id="@+id/btnScanner"
+        android:text="Scanner une plante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>
