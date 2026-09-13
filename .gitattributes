@@ -1,0 +1,20 @@
+# Force LF for all text files
+* text=auto eol=lf
+
+# Treat Kotlin and XML as text
+*.kt text
+*.kts text
+*.xml text
+
+# Optimize diffs for common file types
+*.md diff=markdown
+*.json diff=json
+*.yml diff=yaml
+*.yaml diff=yaml
+
+# Prevent binary corruption
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
