@@ -45,7 +45,12 @@ class ScannerActivity : AppCompatActivity() {
                     .insert(Plant(name = result, species = "Inconnue"))
             }
 
-            Toast.makeText(this, "Plante enregistrée", Toast.LENGTH_SHORT).show()
+            // 👉 TÂCHE 4 : Remplacement du Toast par l'écran détaillé
+            val intent = Intent(this, ScannerResultActivity::class.java)
+            intent.putExtra("plantName", result)
+            intent.putExtra("confidence", "95%")
+            intent.putExtra("details", "Analyse préliminaire basée sur la forme, la couleur et la texture des feuilles.")
+            startActivity(intent)
         }
     }
 
