@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.PlanteVerte" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/greenPrimary</item>
+        <item name="colorPrimaryDark">@color/greenDark</item>
+    </style>
+</resources>
