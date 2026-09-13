@@ -51,7 +51,12 @@ PlanteVerte/
 │
 ├── build.gradle
 ├── settings.gradle
+├── .gitignore
 ├── README.md
+├── .github/
+      ├── workflows/
+      ├── ISSUE_TEMPLATE/
+      ├── PULL_REQUEST_TEMPLATE/
 ```
 
 ### 🚀 Installation
