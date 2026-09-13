@@ -8,12 +8,16 @@
         <activity android:name=".SettingsActivity"/>
         <activity android:name=".JournalActivity"/>
         <activity android:name=".PlantWizardActivity"/>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <!-- TÂCHE 7 : Ajout du module Scanner -->
+        <activity android:name=".scanner.ScannerActivity"/>
 
     </application>
 
