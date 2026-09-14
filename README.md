@@ -17,8 +17,6 @@ Assistant d’apprentissage pour accompagner la naissance et la croissance d’u
 - SettingsActivity : paramètres et rappels
 - Room Database pour stocker les plantes (PlanteVerteDatabase, PlantDao, Plant)
 
-Voici un résumé court, propre et prêt à intégrer dans ton README.md, présentant les labels utilisés dans ton projet PlanteVerte.
-
 ---
 
 ### 🏷️ Labels GitHub utilisés
