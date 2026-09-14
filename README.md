@@ -19,8 +19,6 @@ Assistant d’apprentissage pour accompagner la naissance et la croissance d’u
 
 Voici un résumé court, propre et prêt à intégrer dans ton README.md, présentant les labels utilisés dans ton projet PlanteVerte.
 
-Tu peux le coller tel quel dans une section “Labels GitHub” de ton README.
-
 ---
 
 ### 🏷️ Labels GitHub utilisés
@@ -46,105 +44,7 @@ PlanteVerte utilise un ensemble de labels structurés pour organiser les issues 
 - 🆘 help-wanted — #0277BD  
   Pour les tâches nécessitant de l’aide ou une contribution externe
 
-###  🧱 Structure du projet
-``` text
-PlanteVerte/
-│
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/planteverte/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   │   ├── PlantWizardActivity.kt
-│   │   │   │   ├── JournalActivity.kt
-│   │   │   │   ├── SettingsActivity.kt
-│   │   │   │   ├── ScannerActivity.kt
-│   │   │   │   ├── ScannerResultActivity.kt
-│   │   │   │   ├── data/
-│   │   │   │   │   ├── Plant.kt
-│   │   │   │   │   ├── PlantDao.kt
-│   │   │   │   │   ├── PlantDatabase.kt
-│   │   │   │   │   ├── ScanResult.kt
-│   │   │   │   │   ├── ScanHistoryDao.kt
-│   │   │   │   │   ├── ScanHistoryDatabase.kt
-│   │   │   │   ├── utils/
-│   │   │   │   │   ├── ReminderManager.kt
-│   │   │   │   │   ├── ImageAnalyzer.kt
-│   │   │   │   │   ├── AiModelLoader.kt
-│   │   │   │   │   ├── CloudSyncManager.kt
-│   │   │   │   │   ├── PdfExporter.kt
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_main.xml
-│   │   │   │   │   ├── activity_plant_wizard.xml
-│   │   │   │   │   ├── activity_journal.xml
-│   │   │   │   │   ├── activity_settings.xml
-│   │   │   │   │   ├── activity_scanner.xml
-│   │   │   │   │   ├── activity_scanner_result.xml
-│   │   │   │   ├── values/
-│   │   │   │   │   ├── colors.xml
-│   │   │   │   │   ├── styles.xml
-│   │   │   │   │   ├── themes.xml
-│   │   │   │   │   ├── strings.xml
-│   │   │   ├── AndroidManifest.xml
-│   │   ├── test/
-│   │   ├── androidTest/
-│   ├── build.gradle
-│
-├── build.gradle
-├── settings.gradle
-│
-├── .gitignore
-├── .editorconfig
-├── .gitattributes
-│
-├── README.md
-├── ARCHITECTURE.md
-├── LOCALIZATION_GUIDE.md
-├── RELEASE_NOTES.md
-├── CHANGELOG.md
-├── ROADMAP.md
-├── CODE_OF_CONDUCT.md
-│
-├── LICENSE
-│
-├── .github/
-│   ├── workflows/
-│   │   ├── android-ci.yml
-│   │   ├── release-build.yml
-│   │   ├── lint.yml
-│   │   ├── security.yml
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
-│   ├── PULL_REQUEST_TEMPLATE/
-│   │   ├── pull_request.md
-│   ├── dependabot.yml
-│   ├── FUNDING.yml
-│   ├── SECURITY.md
-│   ├── SUPPORT.md
-│   ├── CODEOWNERS
-│
-├── docs/
-│   ├── design-system/
-│   │   ├── colors.md
-│   │   ├── typography.md
-│   │   ├── components.md
-│   ├── ai/
-│   │   ├── model-training.md
-│   │   ├── scanner-ia-architecture.md
-│   ├── cloud/
-│   │   ├── firebase-structure.md
-│   │   ├── sync-protocol.md
-│
-└── assets/
-    ├── icons/
-    ├── plants/
-    ├── ai-models/
-    ├── pdf/
-```
-
-### 🚀 Installation
+###  🧱 Structure et Installation
 1. Cloner le repo :
    ```bash
    git clone https://github.com/<ton-user>/PlanteVerte.git
