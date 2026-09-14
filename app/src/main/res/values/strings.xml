@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PlanteVerte</string>
+
+    <string name="main_title">PlanteVerte</string>
+    <string name="main_subtitle">Assistant pour apprendre à connaître tes plantes</string>
+
+    <string name="nav_wizard">Assistant plante</string>
+    <string name="nav_journal">Journal</string>
+    <string name="nav_scanner">Scanner</string>
+    <string name="nav_settings">Paramètres</string>
+</resources>
