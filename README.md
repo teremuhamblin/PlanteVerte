@@ -58,21 +58,34 @@ PlanteVerte/
 │   │   │   │   ├── PlantWizardActivity.kt
 │   │   │   │   ├── JournalActivity.kt
 │   │   │   │   ├── SettingsActivity.kt
+│   │   │   │   ├── ScannerActivity.kt
+│   │   │   │   ├── ScannerResultActivity.kt
 │   │   │   │   ├── data/
 │   │   │   │   │   ├── Plant.kt
 │   │   │   │   │   ├── PlantDao.kt
 │   │   │   │   │   ├── PlantDatabase.kt
+│   │   │   │   │   ├── ScanResult.kt
+│   │   │   │   │   ├── ScanHistoryDao.kt
+│   │   │   │   │   ├── ScanHistoryDatabase.kt
 │   │   │   │   ├── utils/
 │   │   │   │   │   ├── ReminderManager.kt
+│   │   │   │   │   ├── ImageAnalyzer.kt
+│   │   │   │   │   ├── AiModelLoader.kt
+│   │   │   │   │   ├── CloudSyncManager.kt
+│   │   │   │   │   ├── PdfExporter.kt
 │   │   │   ├── res/
 │   │   │   │   ├── layout/
 │   │   │   │   │   ├── activity_main.xml
 │   │   │   │   │   ├── activity_plant_wizard.xml
 │   │   │   │   │   ├── activity_journal.xml
 │   │   │   │   │   ├── activity_settings.xml
+│   │   │   │   │   ├── activity_scanner.xml
+│   │   │   │   │   ├── activity_scanner_result.xml
 │   │   │   │   ├── values/
 │   │   │   │   │   ├── colors.xml
 │   │   │   │   │   ├── styles.xml
+│   │   │   │   │   ├── themes.xml
+│   │   │   │   │   ├── strings.xml
 │   │   │   ├── AndroidManifest.xml
 │   │   ├── test/
 │   │   ├── androidTest/
@@ -80,12 +93,55 @@ PlanteVerte/
 │
 ├── build.gradle
 ├── settings.gradle
+│
 ├── .gitignore
+├── .editorconfig
+├── .gitattributes
+│
 ├── README.md
+├── ARCHITECTURE.md
+├── LOCALIZATION_GUIDE.md
+├── RELEASE_NOTES.md
+├── CHANGELOG.md
+├── ROADMAP.md
+├── CODE_OF_CONDUCT.md
+│
+├── LICENSE
+│
 ├── .github/
-      ├── workflows/
-      ├── ISSUE_TEMPLATE/
-      ├── PULL_REQUEST_TEMPLATE/
+│   ├── workflows/
+│   │   ├── android-ci.yml
+│   │   ├── release-build.yml
+│   │   ├── lint.yml
+│   │   ├── security.yml
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   ├── PULL_REQUEST_TEMPLATE/
+│   │   ├── pull_request.md
+│   ├── dependabot.yml
+│   ├── FUNDING.yml
+│   ├── SECURITY.md
+│   ├── SUPPORT.md
+│   ├── CODEOWNERS
+│
+├── docs/
+│   ├── design-system/
+│   │   ├── colors.md
+│   │   ├── typography.md
+│   │   ├── components.md
+│   ├── ai/
+│   │   ├── model-training.md
+│   │   ├── scanner-ia-architecture.md
+│   ├── cloud/
+│   │   ├── firebase-structure.md
+│   │   ├── sync-protocol.md
+│
+└── assets/
+    ├── icons/
+    ├── plants/
+    ├── ai-models/
+    ├── pdf/
 ```
 
 ### 🚀 Installation
