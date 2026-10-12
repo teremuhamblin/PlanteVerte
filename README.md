@@ -1,7 +1,7 @@
 ###### README.md >> markdown 
 # 🌱 PlanteVerte
-- Version 5.0.0
-Assistant botanique moderne pour Android, permettant d’apprendre à connaître ses plantes, suivre leur évolution, analyser leurs feuilles via un scanner IA, synchroniser ses données dans le cloud et exporter son journal en PDF.
+> Version 5.0.0
+- Assistant botanique moderne pour Android, permettant d’apprendre à connaître ses plantes, suivre leur évolution, analyser leurs feuilles via un scanner IA, synchroniser ses données dans le cloud et exporter son journal en PDF.
    - PlanteVerte v5.0.0 est une version professionnelle, documentée, sécurisée, et prête pour la publication.
 
 ---
@@ -61,6 +61,7 @@ ARCHITECTURE.md     → architecture logicielle
 ---
 
 ### 🛠️ Technologies utilisées
+```text
 - Kotlin
 - AndroidX / Material 3
 - Room Database
@@ -70,6 +71,7 @@ ARCHITECTURE.md     → architecture logicielle
 - WorkManager / AlarmManager
 - iText PDF
 - GitHub Actions (CI/CD)
+```
 
 ---
 
